@@ -1,1 +1,15 @@
-{\n  "name": "fit-track",\n  "version": "1.0.0",\n  "dependencies": {\n    "express": "^4.17.1",\n    "strava-v3": "^5.9.0",\n    "body-parser": "^1.19.0"\n  },\n  "scripts": {\n    "start": "node index.js"\n  },\n  "author": "vkanwatia-ctrl",\n  "license": "ISC"\n}
+{
+  "name": "fit-track",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  },
+  "engines": {
+    "node": ">=14"
+  }
+}
