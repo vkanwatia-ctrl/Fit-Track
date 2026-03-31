@@ -1,7 +1,6 @@
-'#!/bin/bash
+#!/bin/bash
 
-# Startup script for Railway
+# Start script for Fit-Track
 
-echo "Starting Railway..."
-# Add any other startup commands here
-# e.g., some_command_to_start_railway
+echo "Starting Fit-Track..."
+# Your commands here
