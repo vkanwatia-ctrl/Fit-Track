@@ -1,7 +1,0 @@
-# Railway configuration for Node.js
-
-[build]
-  command = "npm install"
-
-[deploy]
-  command = "npm start"
