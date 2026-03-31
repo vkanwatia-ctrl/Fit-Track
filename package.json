@@ -1,1 +1,18 @@
-{\n  \"name\": \"fit-track\",\n  \"version\": \"1.0.0\",\n  \"description\": \"Fit Track application to manage fitness activities\",\n  \"main\": \"index.js\",\n  \"scripts\": {\n    \"test\": \"echo 'Error: no test specified' && exit 1\"\n  },\n  \"repository\": {\n    \"type\": \"git\",\n    \"url\": \"git+https://github.com/vkanwatia-ctrl/Fit-Track.git\"\n  },\n  \"keywords\": [\n    \"fitness\",\n    \"tracking\",\n    \"strava\"\n  ],\n  \"author\": \"Your Name\",\n  \"license\": \"ISC\",\n  \"bugs\": {\n    \"url\": \"https://github.com/vkanwatia-ctrl/Fit-Track/issues\"\n  },\n  \"homepage\": \"https://github.com/vkanwatia-ctrl/Fit-Track#readme\"\n}
+{
+  "name": "fittrack-strava-backend",
+  "version": "2.0.0",
+  "description": "Strava OAuth2 backend for FitTrack PWA",
+  "main": "strava-server.js",
+  "scripts": {
+    "start": "node strava-server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "express-session": "^1.17.3"
+  }
+}
